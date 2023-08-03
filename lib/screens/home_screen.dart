@@ -25,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
       setState(() {
         totalPomodoros += 1;
         isRunning = false;
-        totalSeconds = 1500;
+        totalSeconds = twentyFiveMinutes;
       });
       timer.cancel();
     } else {
